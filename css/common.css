@@ -28,3 +28,39 @@ display: flex;
   align-items: flex-start;
   padding: 16px;
 }
+
+/* TASK 2 */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1128px;
+  height: 300px;
+  margin: 0 auto;
+  column-gap: 24px;
+  row-gap: 40px;
+}
+
+.gallery li {
+  margin: 10px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* TASK 2 */
+.input-field {
+  width: 360px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.title-text {
+  font-size: 24px;
+}
